@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.default-view-container {
+  text-align: center;
+}
+.registered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.yetToRegister-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+}
+.yetToRegisterImage {
+  height: 300px;
+}
+.register-button {
+  color: white;
+  background-color: #0967d2;
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.registrationsClosed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.registrations-closed-image {
+  height: 200px;
+  width: 200px;
+}
